@@ -1,0 +1,7 @@
+package com.denis.rickmorty
+
+interface Platform {
+    val name: String
+}
+
+expect fun getPlatform(): Platform
